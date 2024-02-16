@@ -104,6 +104,11 @@ const MyForm = () => {
           ) : (
             <FadeLoader color="rgba(115, 115, 115, 1)" />
           )}
+          {response == '500' ? (
+            "Email was not send 🚫"
+          ) : (
+            <FadeLoader color="rgba(115, 115, 115, 1)" />
+          )}
         </p>
       </div>{" "}
     </>
