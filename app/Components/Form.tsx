@@ -98,9 +98,6 @@ const MyForm = () => {
           submitted ? "" : "hidden"
         }`}
       >
-        {/* <p>
-          Response:{response} <br />
-        </p> */}
         <p>
           {response == '200' ? (
             "Email Sent ✅"
