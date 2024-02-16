@@ -51,7 +51,7 @@ const MyForm = () => {
         style={{ boxShadow: "0 0 10px rgba(0, 0, 0, 0.13)" }}
       >
         <label className="text-xs text-zinc-500 mt-2" htmlFor="to">
-          Receiver's Email
+          Receiver&apos;s Email
         </label>
         <input
           className=" p-2 rounded-lg border"
