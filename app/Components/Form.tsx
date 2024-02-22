@@ -18,7 +18,6 @@ const MyForm = () => {
       subject,
       body,
     };
-
     try {
       const response = await fetch(
         "https://zgt0z6l7-1880.asse.devtunnels.ms/send-email",
